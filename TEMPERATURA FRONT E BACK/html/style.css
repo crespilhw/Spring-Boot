@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background: linear-gradient(to right, rgb(68, 68, 68), rgb(0, 0, 0));
+    text-align: center;
+    margin: 0;
+    padding: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculadora {
+    background: linear-gradient(to left, rgb(68, 68, 68), rgb(0, 0, 0));
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+input[type="number"],
+select,
+button {
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(255, 62, 62), rgb(255, 0, 0));
+}
