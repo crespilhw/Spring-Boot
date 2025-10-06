@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    <form class="calculadora" id="calculadora">
+        <input type="number" id="num1" name="num1" placeholder="Número 1" required/>
+        <select name="operacao" id="operacao" required>
+            <option value="" disabled selected>Selecione operação</option>
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="divisao">Divisão</option>
+        </select>
+        <input type="number" name="num2" id="num2" placeholder="Número 2" required/>
+        <div class="botao">
+        <button type="submit">Calcular</button>
+        </div>
+    </form>
+    </div>
+    <div id="erro"></div>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>

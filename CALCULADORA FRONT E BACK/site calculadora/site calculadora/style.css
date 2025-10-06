@@ -1,0 +1,43 @@
+body{
+    color: white;
+    background: linear-gradient( to right, rgb(68, 68, 68), rgb(0, 0, 0)) ;
+    text-align: center;
+    margin: 0;
+    padding:275px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculadora {
+    background: linear-gradient( to left, rgb(68, 68, 68), rgb(0, 0, 0)) ;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+input[type="number"],
+    num1 {
+        width: 300px;
+        height: 70px;
+        border-radius: 8px;
+    }
+button {
+    width: 200px;
+    height: 80px;
+    border-radius: 8px;
+}
+button:hover{
+    background: linear-gradient( to right, rgb(255, 62, 62), rgb(255, 0, 0)) ;
+}
+select{
+    width: 200px;
+    height: 75px;
+    border-radius: 8px;
+}
+select:hover{
+    background-color: rgb(204, 204, 204) ;
+}
+input[type="number"]:hover, 
+num1:hover{
+    background-color: rgb(204, 204, 204) ;
+}
