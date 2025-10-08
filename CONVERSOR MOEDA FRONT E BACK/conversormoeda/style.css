@@ -1,0 +1,120 @@
+body {
+    background-color: #0080ff;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #fdfcfc;
+    padding: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.logo-titulo{
+  max-width: 1000px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2E8BFF;
+}
+
+.moeda {
+    background-color: #FFFFFF;
+    color: #0A2540;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    min-width: 350px;
+}
+
+input[type="number"],
+select,
+button {
+    width: 280px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid #DDE3E8;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="number"],
+select {
+    background-color: #F4F6F8;
+    color: #0A2540;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #2E8BFF;
+    box-shadow: 0 0 5px rgba(46, 139, 255, 0.4);
+}
+
+button {
+    background-color: #2E8BFF;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #02ca5c, #02cc7f);
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #0A2540;
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.resultado-box {
+    background: linear-gradient(135deg, #0066ff, #18d19a);
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto 0 auto; /* centraliza horizontalmente */
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 230px; /* largura máxima */
+    text-align: center;
+}
